@@ -6,6 +6,8 @@ nav {
   background-color: blue;
   width: 100%;
   height: 50px;
+  position: fixed;
+  z-index: 9999;
 }
 
 li {
@@ -13,15 +15,14 @@ li {
   color: white;
   margin: 7px;
   text-decoration: none;
-  height: 40px;
+  height: 30px;
   width: 100px;
   background-color: white;
   text-align: center;
-  margin-top: 5px;
+
   padding-top: 10px;
   border: 1px solid black;
   border-radius: 20%;
-
 }
 
 #main-title {
@@ -29,28 +30,41 @@ li {
   background-color: black;
   color: white;
   width: 600px;
-  position: relative;
+  position: absolute;
   display: inline-block;
   margin: 0;
+  z-index: 999;
 }
 
 .text-banner {
-  margin-top: 50px;
-  position: relative;
-}
+margin-top: -550px;
 
-#main-subtext {
+  }
+
+.main-subtext {
   font-size: 25px;
   color: white;
   background-color: black;
   width: 300px;
-  margin-top: 0;
   display: block;
+  z-index: 999;
+  position: relative;
+}
+
+.main-teaser-text {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  z-index: 998;
+  position: relative;
+  width: 400px;
 }
 
 
 #main-image {
   width: 100%;
   height: 700px;
-  position: absolute;
+  position: relative;
+  z-index: 1;
+
 }
