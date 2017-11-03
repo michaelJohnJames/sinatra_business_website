@@ -178,3 +178,13 @@ width: 200px;
   grid-row: 7;
   background-color: pink;
 }
+
+.ab-pic {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+h3 {
+  font-size: 60px;
+  text-align: center;
+}
