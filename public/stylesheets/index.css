@@ -120,63 +120,65 @@ width: 200px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(200px, auto);
+  margin: 0 auto;
 }
 
 .one {
-  grid-column: 1/6;
-  grid-row: 1/2;
-  background-color: blue;
+  grid-column: 2/6;
+  grid-row: 1;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+
 }
 
 .two {
   grid-column: 1;
-  grid-row: 2/6;
-  background-color: red;
-}
+  grid-row: 1/6;
+  background-color: #f2f2f2;
+  padding: 10px;
+  }
 
 .three {
   grid-column: 2/6;
-  grid-row: 2/4;
-  background-color: green;
+  grid-row: 2/5;
 }
 
 .four {
   grid-column: 2;
   grid-row: 5/6;
-  background-color: orange;
 }
 
 .nine {
   grid-column: 2/6;
   grid-row: 4;
-  background-color: blue;
+  padding-top: 200px;
 }
 
 .five {
   grid-column: 3;
   grid-row: 5/6;
-  background-color: black;
+
 }
 
 .seven {
   grid-column: 4;
   grid-row: 5/6;
-  background-color: red;
+
+  padding-top: 40px;
 }
 
 .eight {
   grid-column: 5;
   grid-row: 5/6;
-  background-color: yellow;
+
+  padding-top: 40px;
 }
 
 .six {
-  grid-column: 1/6;
-  grid-row: 7;
-  background-color: pink;
+  grid-column: 2/6;
+  grid-row: 6;
+  text-align: center;
 }
 
 .ab-pic {
@@ -184,7 +186,15 @@ width: 200px;
   max-height: 100%;
 }
 
+.about-subhead {
+  font-size: 40px;
+}
+
 h3 {
-  font-size: 60px;
+  font-size: 30px;
   text-align: center;
+}
+
+.quote {
+  font-size: 30px;
 }
