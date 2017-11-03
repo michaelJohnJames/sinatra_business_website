@@ -10,6 +10,10 @@ nav {
   z-index: 9999;
 }
 
+ul {
+  margin: 0;
+}
+
 li {
   display: inline-block;
   color: white;
@@ -27,8 +31,8 @@ li {
 
 #main-title {
   font-size: 70px;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   width: 600px;
   position: absolute;
   display: inline-block;
@@ -38,6 +42,10 @@ li {
 
 .text-banner {
 margin-top: -550px;
+background-color: white;
+z-index: 995;
+height: 100px;
+width: 200px;
 
   }
 
@@ -45,7 +53,7 @@ margin-top: -550px;
   font-size: 25px;
   color: white;
   background-color: black;
-  width: 300px;
+  width: 600px;
   display: block;
   z-index: 999;
   position: relative;
