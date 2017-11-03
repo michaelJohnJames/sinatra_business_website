@@ -19,11 +19,10 @@ li {
   color: white;
   margin: 7px;
   text-decoration: none;
-  height: 30px;
+  height: 40px;
   width: 100px;
   background-color: white;
   text-align: center;
-
   padding-top: 10px;
   border: 1px solid black;
   border-radius: 20%;
@@ -33,39 +32,47 @@ li {
   font-size: 70px;
   background-color: white;
   color: black;
-  width: 600px;
+  width: 625px;
   position: absolute;
   display: inline-block;
   margin: 0;
   z-index: 999;
+  padding: 10px;
+  opacity: 0.9;
 }
 
 .text-banner {
-margin-top: -550px;
+margin-top: -400px;
 background-color: white;
 z-index: 995;
 height: 100px;
 width: 200px;
 
+
   }
 
 .main-subtext {
   font-size: 25px;
-  color: white;
-  background-color: black;
-  width: 600px;
+  color: black;
+  background-color: white;
+  width: 500px;
   display: block;
   z-index: 999;
   position: relative;
+  margin-top: 40px;
+  opacity: 0.9;
+  padding: 3px;
 }
 
 .main-teaser-text {
   background-color: white;
   color: black;
-  padding: 20px;
+  padding: 7px;
   z-index: 998;
   position: relative;
   width: 400px;
+  margin-top: 50px;
+  opacity: 0.9;
 }
 
 
