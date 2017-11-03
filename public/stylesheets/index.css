@@ -3,7 +3,7 @@
 }
 
 nav {
-  background-color: blue;
+  background-color: #66b3ff;
   width: 100%;
   height: 50px;
   position: fixed;
@@ -17,15 +17,37 @@ ul {
 li {
   display: inline-block;
   color: white;
-  margin: 7px;
-  text-decoration: none;
-  height: 40px;
-  width: 100px;
-  background-color: white;
+
+  height: 65px;
+  width: 80px;
   text-align: center;
-  padding-top: 10px;
-  border: 1px solid black;
-  border-radius: 20%;
+  font-family: sans-serif;
+}
+
+.home-pic {
+margin-top: 0;
+  width: 45px;
+  height: 45px;
+}
+
+.about-pic {
+  margin-top: 0;
+  width: 50px;
+  height: 50px;
+
+  display: inline-block;
+}
+
+.contact-pic {
+  margin-top: 0;
+  width: 50px;
+  height: 50px;
+  
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
 }
 
 #main-title {
@@ -40,7 +62,7 @@ li {
   padding: 10px;
   opacity: 0.9;
   border-radius: 5%;
-}
+  }
 
 .text-banner {
 margin-top: -400px;
@@ -84,5 +106,6 @@ width: 200px;
   height: 700px;
   position: relative;
   z-index: 1;
+
 
 }
