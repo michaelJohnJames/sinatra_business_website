@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  display: inline:block;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+
+}
