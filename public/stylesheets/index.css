@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* NAVIGATION */
+
 nav {
   background-color: #66b3ff;
   width: 100%;
@@ -53,6 +55,8 @@ a {
   text-decoration: none;
 }
 
+/* HOMEPAGE */
+
 #main-title {
   font-size: 70px;
   background-color: white;
@@ -73,8 +77,6 @@ background-color: white;
 z-index: 995;
 height: 100px;
 width: 200px;
-
-
   }
 
 .main-subtext {
@@ -109,6 +111,70 @@ width: 200px;
   height: 700px;
   position: relative;
   z-index: 1;
+}
 
 
+/* ABOUT PAGE */
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+.one {
+  grid-column: 1/6;
+  grid-row: 1/2;
+  background-color: blue;
+  text-align: center;
+  font-size: 30px;
+}
+
+.two {
+  grid-column: 1;
+  grid-row: 2/6;
+  background-color: red;
+}
+
+.three {
+  grid-column: 2/6;
+  grid-row: 2/4;
+  background-color: green;
+}
+
+.four {
+  grid-column: 2;
+  grid-row: 5/6;
+  background-color: orange;
+}
+
+.nine {
+  grid-column: 2/6;
+  grid-row: 4;
+  background-color: blue;
+}
+
+.five {
+  grid-column: 3;
+  grid-row: 5/6;
+  background-color: black;
+}
+
+.seven {
+  grid-column: 4;
+  grid-row: 5/6;
+  background-color: red;
+}
+
+.eight {
+  grid-column: 5;
+  grid-row: 5/6;
+  background-color: yellow;
+}
+
+.six {
+  grid-column: 1/6;
+  grid-row: 7;
+  background-color: pink;
 }
