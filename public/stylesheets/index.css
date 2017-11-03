@@ -39,6 +39,7 @@ li {
   z-index: 999;
   padding: 10px;
   opacity: 0.9;
+  border-radius: 5%;
 }
 
 .text-banner {
@@ -55,13 +56,14 @@ width: 200px;
   font-size: 25px;
   color: black;
   background-color: white;
-  width: 500px;
+  width: 470px;
   display: block;
   z-index: 999;
   position: relative;
   margin-top: 40px;
   opacity: 0.9;
   padding: 3px;
+  border-radius: 5%;
 }
 
 .main-teaser-text {
@@ -73,6 +75,7 @@ width: 200px;
   width: 400px;
   margin-top: 50px;
   opacity: 0.9;
+  border-radius: 5%;
 }
 
 
