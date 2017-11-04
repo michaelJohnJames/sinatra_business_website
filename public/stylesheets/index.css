@@ -120,17 +120,17 @@ width: 200px;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(200px, auto);
-  margin: 0 auto;
-}
+  grid-auto-rows: minmax(400px, auto);
+  }
 
 .one {
   grid-column: 2/6;
   grid-row: 1;
   text-align: center;
-  font-size: 40px;
-
+  font-size: 5px;
+  margin: 0;
 }
+
 
 .two {
   grid-column: 1;
@@ -197,4 +197,8 @@ h3 {
 
 .quote {
   font-size: 30px;
+}
+
+#about-header {
+  margin: 0;
 }
