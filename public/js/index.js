@@ -1,14 +1,15 @@
-main-carousel [ "img/computers2.jpeg", "img/computerwrench.jpg"]
+var mainCarousel = [ { Name: "Computers",
+  Image: "img/computers2.jpeg" }, { Name: "Wrench", Image: "img/computerwrench.jpg" } ]
 
 
-var carousel = document.getElementsById("main-image")
-var button = document.getElmentById("arrow")
+var carousel = document.getElementById("main-image")
+var scroll = document.getElementById("arrow")
 
 
 function swapPic() {
-  let x = 0;
-  carousel.src = main-carousel[x++]
+  let i = 0;
+  carousel.src = mainCarousel[i++].Image
 }
 
 
-button.addEventListener('click', swapPic)
+scroll.addEventListener('click', swapPic)
