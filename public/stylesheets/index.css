@@ -164,7 +164,7 @@ width: 200px;
 
 .wrapper {
   display: grid;
-  grid-auto-columns: minmax(auto, auto);
+  grid-auto-columns: minmax(100px, auto);
   grid-gap: 10px;
   grid-template-rows: 150px 350px 350px 100px 100px 100px;
   }
