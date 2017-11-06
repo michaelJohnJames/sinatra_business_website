@@ -86,6 +86,12 @@ a {
   text-decoration: none;
 }
 
+/*FOOTER */
+#footer-text {
+  text-align: center;
+  font-size: 15px;
+}
+
 /* HOMEPAGE */
 
 #main-title {
@@ -247,6 +253,11 @@ h3 {
 
 /* CONTACT PAGE */
 
+#contact-header {
+  text-align: center;
+}
+
+
 #email-form {
   width: 400px;
   height: 100px;
@@ -263,4 +274,8 @@ form {
 #building-photo {
   margin: 0 auto;
   text-align: center;
+}
+
+.photo-frame {
+  margin: 0 auto;
 }
