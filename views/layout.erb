@@ -7,13 +7,23 @@
   </head>
   <body>
     <nav>
-    <ul>
+    <ul id="nav-left">
         <li><a href="/index"><img  class='home-pic' src="/img/home.jpg" alt="home"></a></li>
         <li><a href="/about"><img class='about-pic' src="/img/about.jpg" alt="about"></a></li>
         <li><a href="/contact"><img class='contact-pic' src="/img/contact.jpg" alt="contact"></a></li>
       </ul>
 
+      <ul id="nav-right">
+        <li><a href="facebook.com"><img class='facebook-pic' src="/img/facebook1.png" alt="facebook"></a></li>
+        <li><a href="twitter.com"><img class='twitter-pic' src="/img/twitter.png" alt="twitter"></a></li>
+      </ul>
     </nav>
+
+
+
+    <footer>
+      <p id="footer-text">Website designed by Michael James.</p>
+    </footer>
     <%= yield %>
     <script src="/js/index.js"></script>
   </body>
