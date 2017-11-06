@@ -157,20 +157,21 @@ width: 200px;
   display: inline-block;
   margin-top: 100px;
   padding: 20px;
+  background-color: red;
 }
 
 /* ABOUT PAGE */
 
 .wrapper {
   display: grid;
-  grid-auto-columns: repeat(6, 1fr);
+  grid-auto-columns: minmax(auto, auto);
   grid-gap: 10px;
-  grid-auto-rows: minmax(200px, auto);
+  grid-template-rows: 150px 350px 350px 100px 100px 100px;
   }
 
 .one {
   grid-column: 2/6;
-  grid-row: 1;
+  grid-row: 1/1;
   text-align: center;
   margin: 0;
 }
@@ -178,7 +179,7 @@ width: 200px;
 
 .two {
   grid-column: 1;
-  grid-row: 1/6;
+  grid-row: 1/7;
   background-color: #f2f2f2;
   padding: 10px;
   }

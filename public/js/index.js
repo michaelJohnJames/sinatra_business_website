@@ -1,5 +1,5 @@
 var mainCarousel = [ { Name: "Computers",
-  Image: "img/computers2.jpeg" }, { Name: "Wrench", Image: "img/computerwrench.jpg" } ]
+  Image: "img/computers2.jpeg"}, { Name: "Wrench", Image: "img/computerwrench.jpg" } ]
 
 
 var carousel = document.getElementById("main-image")
