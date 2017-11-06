@@ -10,6 +10,7 @@ nav {
   height: 60px;
   position: fixed;
   z-index: 9999;
+  top: 0;
 }
 
 #nav-left {
@@ -269,8 +270,8 @@ form {
 }
 
 #building-photo {
-
-  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 #email-address, #email-body, #email-subject {
@@ -284,5 +285,5 @@ form {
 }
 
 .photo-frame {
-  margin-left: 350px;
+
 }
