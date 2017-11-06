@@ -76,11 +76,7 @@ li {
   display: inline-block;
   padding-bottom: 10px;
   padding-top: 2px;
-
-
 }
-
-
 
 a {
   text-decoration: none;
@@ -166,9 +162,9 @@ width: 200px;
 
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-auto-columns: repeat(6, 1fr);
   grid-gap: 10px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-auto-rows: minmax(200px, auto);
   }
 
 .one {
@@ -255,12 +251,12 @@ h3 {
 
 #contact-header {
   text-align: center;
+  font-size: 60px;
 }
 
-
-#email-form {
-  width: 400px;
-  height: 100px;
+#email-address {
+  height: 30px;
+  width: 200px
 }
 
 #location-info {
@@ -269,13 +265,24 @@ h3 {
 
 form {
   text-align: center;
+  display: block;
 }
 
 #building-photo {
-  margin: 0 auto;
+
   text-align: center;
 }
 
+#email-address, #email-body, #email-subject {
+  margin: 10px auto;
+  display: block;
+}
+
+#email-body {
+  height: 100px;
+  width: 300px;
+}
+
 .photo-frame {
-  margin: 0 auto;
+  margin-left: 350px;
 }
