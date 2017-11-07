@@ -157,19 +157,6 @@ a {
   z-index: 1;
 }
 
-#arrow {
-  width: 40px;
-  height: 40px;
-  position: relative;
-  float: right;
-  z-index: 9999;
-  float: right;
-  display: inline-block;
-  margin-top: 100px;
-  padding: 20px;
-  background-color: red;
-}
-
 /* ABOUT PAGE */
 
 .wrapper {
